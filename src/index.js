@@ -7,5 +7,6 @@ import store from './store';
 ReactDOM.render(
   <Provider store={store}>
     <App />
-  </Provider>
-  , document.querySelector('.container'));
+  </Provider>,
+  document.querySelector('.container'),
+);
